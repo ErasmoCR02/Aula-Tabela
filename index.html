@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        th, td {
+            border: 1px solid black;
+        }
+
+        tfoot {
+            background-color: slateblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Profuto</th>
+                <th>Quantidade</th>
+                <th>Preco</th>
+                <th>Varial</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>produto 1</td>
+                <td>2</td>
+                <td>5</td>
+                <td rowspan="2">sim</td>
+            </tr>
+
+            <tr>
+                <td >produto 2</td>
+                <td>2</td>
+                <td>5</td>
+
+            </tr>
+            <tr>
+                <td>produto 2</td>
+                <td>2</td>
+                <td>5</td>
+                <td>sim</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">total</td>
+                <td colspan="2">50</td>
+            </tr>
+        </tfoot>
+
+
+
+
+    </table>
+    
+</body>
+</html>
